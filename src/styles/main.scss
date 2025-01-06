@@ -1,0 +1,25 @@
+@use "hero";
+@use "event";
+@use "var";
+@use "infos_bar";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    color: var.$textColor;
+    list-style: none;
+}
+
+body{
+    background-color: var.$backgroundColor;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+
+}
